@@ -2,10 +2,16 @@
 ## 1.1 Purpose
 + Describes the purpose of the SRS
 + Specifies the intended audience for the SRS
+
+The purpose of this document is to present a detailed descriptio of a school managemet system. It will explain the functionalities and features of the system, the interfaces of the system, what the system shall do y the costraints in which under the system will work.
+
+This document will provide all the stakeholders that are involved in the school employees and students enrollment process a high-level statement of the functionalities of the system.
 ## 1.2 Scope
 + Identify the software products to be produced by name
 + Explain what the software products, will and will not do
 + Describes the application of the software being specified, includes benefits, objectives and goals
+
+This management software will be a CRUD system for an elementary school located in the south-eastern part of the city. This system is designed to ease the control process of alumni and employees at the institution. In a more specific level, for both alumni and employee, the system will provide the manager the capability of register , update 
 ## 1.3 Definitions, acronyms, and abbreviations
 + Provides the definitions of all terms, acronyms, and abbreviations required properly to interpret the SRS
 ## 1.4 References
