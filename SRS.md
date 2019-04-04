@@ -11,7 +11,7 @@ This document will provide all the stakeholders that are involved in the school 
 + Explain what the software products, will and will not do
 + Describes the application of the software being specified, includes benefits, objectives and goals
 
-This management software will be a CRUD system for an elementary school located in the south-eastern part of the city. This system is designed to ease the control process of alumni and employees at the institution. In a more specific level, for both alumni and employee, the system will provide the manager the capability of register , update 
+This management software will be a CRUD system for an elementary school located in the south-eastern part of the city. This system is designed to ease the control process of students and employees at the institution. In a more specific level, for both students and employee, the system will provide the manager the capability of register their information, update the registered members information, and remove from the system students and employees who no longer are part of the school. 
 ## 1.3 Definitions, acronyms, and abbreviations
 + Provides the definitions of all terms, acronyms, and abbreviations required properly to interpret the SRS
 ## 1.4 References
@@ -20,8 +20,17 @@ This management software will be a CRUD system for an elementary school located 
 ## 1.5 Overview
 + Describes what the rest of the SRS contains
 + Explains how the SRS is organized
+
+This document contains the difficulties that the elementary school is going through because of the lack of a computer system that can help them have control over the register of employees and students that are part of the institution. It also displays the needs and wants of the stakeholders that were identified during the specification process.
+
+As for the next chapter, it contains a general view of the functionality of the product. It describes the requirements in a high-level way and it stablishes a connection for the technical requirements specification in the next chapter.
+
+The third chapter is written for stakeholders with more technical aknowledgement because it describes the functionality of the product in technical terms.
+
 # Overall Description
 + Describes the general factors that affect the product and it requirements. This section dos not state specific requirements. Instead, it provides background for those requirements.
+
+
 ## 2.1 Product perspective
 + This subsection of hte SRS should put the product into perspective with other related products. 
   If the product is independent and totally self-contained, it should be so stated here. 
