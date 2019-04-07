@@ -95,6 +95,28 @@ Before this case use can be initiated, the secretary has already accessed the em
 * The secretary clicks the “Register new employee” button to save the typed information.
 * The system will save the register in an external text file.
 
+Use case: Modify employee’s information
+Diagram: 
+	
+Brief Description: 
+The secretary accesses the system, then goes to the modify employee section and selects the employee whose information has to be changed and changes the information.
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the employees modification section.
+
+* The secretary selects from the list the employee whose information is going to modified. 
+* The secretary fills the fields that need to be modified with the new information.
+* The secretary clicks the “Save Changes” button to save changes.
+* The information will update from the external file.
+
+Use case: Consult Students Information
+Diagram: 
+	
+Brief Description: 
+	The secretary accesses the system, then goes to the registered students section and search in the list for the student whose information needs to be consulted
+	Initial Step-By-Step Description
+	Before this case use can be initiated, the secretary has already accessed the registered students section.
+
+The secretary selects from the list the student whose information needs to be consulted. 
 
 
 
