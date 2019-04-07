@@ -1,71 +1,63 @@
 # Introduction
 ## 1.1 Purpose
-+ Describes the purpose of the SRS
-+ Specifies the intended audience for the SRS
+The purpose of this document is to present a detailed description of an elementary school management system. Within the description, there will be an explanation of the features and constraints under which the system will operate. This document is intended for both users and stakeholders as a guide for system’s functions.
 
-The purpose of this document is to present a detailed descriptio of a school managemet system. It will explain the functionalities and features of the system, the interfaces of the system, what the system shall do y the costraints in which under the system will work.
-
-This document will provide all the stakeholders that are involved in the school employees and students enrollment process a high-level statement of the functionalities of the system.
 ## 1.2 Scope
-+ Identify the software products to be produced by name
-+ Explain what the software products, will and will not do
-+ Describes the application of the software being specified, includes benefits, objectives and goals
+This software system is an elementary school management system. The system is design to ease the processes of register and unregister of employees and students as well as the modification of the registers of both. In an specific manner, the system design will allow the secretaries to register, unregister and modify students and employees information. The system will also allow the members of the finance department to make consults, this consults are required in order to calculate employees salaries manually. The school’s principal will also be able to make consults in order to help him in terms of organization and planning.
 
-This management software will be a CRUD system for an elementary school located in the south-eastern part of the city. This system is designed to ease the control process of students and employees at the institution. In a more specific level, for both students and employee, the system will provide the manager the capability of register their information, update the registered members information, and remove from the system students and employees who no longer are part of the school. 
 ## 1.3 Definitions, acronyms, and abbreviations
-+ Provides the definitions of all terms, acronyms, and abbreviations required properly to interpret the SRS
-## 1.4 References
-+ Identifies each document by title, repor number, date, and publishing organizations
-+ Specify the sources from which the references can be obtained
-## 1.5 Overview
-+ Describes what the rest of the SRS contains
-+ Explains how the SRS is organized
+| Term          | Definition           
+| ------------- |:-------------:
+| Stakeholder                |  Any person with an interest in the project.
+| Secretary                 | Person who registers, unregisters and modifies the employees and students information.      
+| Finane department members | People who manage the school’s money.
+| Principal                 | Person who has executive authority in the school.
+| CRUD                      | In computer programming, create, read, update, and delete are the four basic functions of persistent storage.
+| Software System           | System software is a type of computer program that is designed to run a computer’s hardware and application programs.
 
+
+## 1.4 References
+https://www.thefreedictionary.com/school+principal
+http://www.businessdictionary.com/definition/finance-department.html
+https://whatis.techtarget.com/definition/system-software
+https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+
+## 1.5 Overview
 This document contains the difficulties that the elementary school is going through because of the lack of a computer system that can help them have control over the register of employees and students that are part of the institution. It also displays the needs and wants of the stakeholders that were identified during the specification process.
 
-As for the next chapter, it contains a general view of the functionality of the product. It describes the requirements in a high-level way and it stablishes a connection for the technical requirements specification in the next chapter.
+As for the next chapter, it contains a general view of the functionality of the product. It describes the requirements in a high-level way and it establishes a connection for the technical requirements specification in the next chapter.
+The third chapter is written for stakeholders with more technical acknowledgement because it describes the functionality of the product in technical terms.
 
-The third chapter is written for stakeholders with more technical aknowledgement because it describes the functionality of the product in technical terms.
 
 # Overall Description
-+ Describes the general factors that affect the product and it requirements. This section dos not state specific requirements. Instead, it provides background for those requirements.
-
-
 ## 2.1 Product perspective
-+ This subsection of hte SRS should put the product into perspective with other related products. 
-  If the product is independent and totally self-contained, it should be so stated here. 
-  If the SRS defines a product that is a component of a larger system, as frequently occurs, then
-  this subsection should relate the requirements of that larger system to functionality of the software
-  and should indentify interfaces between that system and the software.
-  
-+ This subsection should also describe how the software operates insides various constraints. For example, these constraints could include.
+This school management system is aimed toward an elementary school who has an small amount of students and employees, but needs assistance of a software system to manage the students and employees information in order to ease the processes of information handling. Management systems should be user-friendly, easy to learn and use, and it also should be trustworthy. 
 
-### 2.1.1 System Interfaces
-+ This should list each system interface and identify the functionality of the software to accomplish the system requirement
-  and the interface description to match the system.
-### 2.1.2 User interfaces
-+ This should specify the logical characteristics of each interface between the software product and its users.
-+ All the aspects of optimizing the interface with the person who must use the system.
+This management system is intended to be an standalone application and should not depend on the availability of other software.
 
-### 2.1.3 Hardware interfaces
-+ This should specify the logical characteristics of each interface between the software products and the hardware
-  component of the system.
-### 2.1.4 Software interfaces
-+ This should specify the use of other required software products and interfaces with other applications systems.
+### 2.1.1 System Enviroment
+![image]()
 
-### 2.1.5 Communication interfaces
-+ This should specify the various interfaces to communication such as local network protocols, etc.
-### 2.1.6 Memory
-+ This should specify any applicable characteristics and limits on primary and secondary memory.
+The School Management System has three active actors and one cooperating 
+system. The system is accessed through an executable that will lead the actors to the system’s features. 
 
-### 2.1.7 Operations
-+ This should specify the normal and special operations required by the user such as:
-+ The various nodes of operations in the user organization.
 
-### 2.1.8 Site adaption requirements
-+ This should define the requirements for any data or initialization sequences that are specific to a given site, mission, or operational mode.
 ## 2.2 Product functions
-+ This subsection of the SRS should provide a summary of the major functions that the software will perform.
+This section outlines the use cases for each of the active actors of the system. The secretary is the main actor in the system and all of its use cases are done separately, finance department member and the school’s principal have only one use case apiece.
+
+Use case: Register Student 
+	Diagram: 
+	
+
+Brief Description: 
+The secretary accesses the system, then goes to the register student section and fills 	the fields with the student’s information.
+
+Initial Step-By-Step Description
+* Before this case use can be initiated, the secretary has already accessed the students register section.
+* The secretary fills the fields with the student’s information.
+* The secretary clicks the “Register new student” button to save the typed information.
+* The system will save the register in an external text file.
+
 ## 2.3 User characteristics
 + This subsection of the SRS should describe those general characteristics of the intender users of the product including educational level, experience, and technical expertise.
 
