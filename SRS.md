@@ -58,6 +58,49 @@ Initial Step-By-Step Description
 * The secretary clicks the “Register new student” button to save the typed information.
 * The system will save the register in an external text file.
 
+Use case: Unregister Student
+Diagram: 
+	
+Brief Description: 
+The secretary accesses the system, then goes to the unregister student section and selects the student to me remove from the system.
+	
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the students unregister section.
+* The secretary selects from the list the student whose information is going to be removed from the system. 
+* The secretary clicks the “Remove student” button to remove the student from the system.
+* The system will erase the register from the external text file.
+
+Use case: Modify student’s information
+Diagram: 
+	
+Brief Description: 
+The secretary accesses the system, then goes to the modify student section and selects the student whose information has to be changed and changes the information.
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the students modification section.
+
+* The secretary selects from the list the student whose information is going to modified. 
+* The secretary fills the fields that need to be modified with the new information.
+* The secretary clicks the “Save Changes” button to save changes.
+* The information will update from the external file.
+
+Use case: Register Employee
+Diagram: 
+	
+Brief Description: 
+The secretary accesses the system, then goes to the register employee section and fills the fields with the employee’s information.
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the employees register section.
+
+* The secretary fills the fields with the employee’s information.
+* The secretary clicks the “Register new employee” button to save the typed information.
+* The system will save the register in an external text file.
+
+
+
+
+
+
+
 ## 2.3 User characteristics
 + This subsection of the SRS should describe those general characteristics of the intender users of the product including educational level, experience, and technical expertise.
 
