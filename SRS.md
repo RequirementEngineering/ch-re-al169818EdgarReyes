@@ -216,16 +216,121 @@ Before this case use can be initiated, the member of the school’s principal ha
 * The school’s principal selects from the list the student whose information needs to be consulted. 
 
 ## 2.3 User characteristics
+| User       	| Characteristics         
+| ------------- |:-------------:
+| Secretary     | The secretary is the person or people who will be using all the features of the system, this includes register, unregisters and changes to the information of both employees and students. The secretary is expected to have basic notions in the interaction  with computer applications.
+| Finance Department Members      | The member of the finance department will be using the system only to generate consults in order to help them with salary estimates. This people are expected to have basic notions in the interaction  with computer applications.    
+| Principal | The school’s principal will be using the system only to generate consults to help him with the organization and planning of the school. The principal is expected to have basic notions in the interaction  with computer applications.     
 
 
 ## 2.4 Constraints
-+ This subsection of the SRS should provide a general description of any other items that will limit the developer's options
-## 2.5 Assumptions and dependencies
-This subsection of the SRS should list each of the factor that affect the requirements stated in the SRS.
+This School Management System is a single-user software.
 
-# Specific Requirements
-+ This section of the SRS should contain all of the software requirements to a leve of detail sufficient to enable desginers to design a system to satisfy those requirements, and testers
-  to test that the system satisfies those requirements.
+## 2.5 Assumptions and dependencies
+It is assumed that the computer in which this software is running has Windows 10 as the operative system. 
+
+
+# 3. Specific Requirements
+## 3.1 Functional Requirements
+
+Description of functional requirements by giving various use cases.
+
+#### Use Case 1: Student Registration
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the student register section.
+##### Main Scenario: 
+
+1. Secretary fills every empty field of the registration form with the student’s information.
+2. After filling the fields, the secretary clicks on the button “Register New Student” to make a new register of the new student.
+3. The register is done and the system saves it on an external text file that has all the student’s registers.
+
+#### Use Case 2: Student Unregistration
+##### Pr# imary Actor: Secretary
+##### Preondition: The secretary is already in the student unregister section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the student who is going to be removed from the system.
+2. Once that the student has been found the secretary selects it.
+3. After selecting the student from the list the secretary clicks the “Remove Student” button to remove the student’s register from the system.
+4. The register is erased from the external text file.
+
+#### Use Case 3: Student’s Information Modification
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the student modification section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the student whose information has to modified.
+2. Once that the student has been found the secretary selects it.
+3. After selecting the student from the list the secretary clicks the “Modify Student” button to go to a new Panel that is going to contain all the student information fields.
+4. Once in this new Panel, the secretary must overwrite the necessary fields.
+5. After modifying the information the secretary clicks the “Save Changes” button to save changes.
+6. Information will be updated from the external text file.
+
+#### Use Case 4: Student’s Information Consult
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the registered students section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the student whose information wants to be consulted.
+2. Once found the information will be shown in a new Panel where the user can’t edit the information.
+
+#### Use Case 5: Employee Registration
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the employee register section.
+##### Main Scenario: 
+
+1. Secretary fills every empty field of the registration form with the employee information.
+2. After filling the fields, the secretary clicks on the button “Register New Employee” to make a new register of the new employee.
+3. The register is done and the system saves it on an external text file that has all the employee’s registers.
+
+#### Use Case 6: Employee Unregistration
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the employee unregister section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the employee who is going to be removed from the system.
+2. Once that the employee has been found the secretary selects it.
+3. After selecting the employee from the list the secretary clicks the “Remove Employee” button to remove the employee’s register from the system.
+4. The register is erased from the external text file.
+
+#### Use Case 7: Employee’s Information Modification
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the employee modification section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the employee whose information has to modified.
+2. Once that the employee has been found the secretary selects it.
+3. After selecting the employee from the list the secretary clicks the “Modify Employeet” button to go to a new Panel that is going to contain all the employee information fields.
+4. Once in this new Panel, the secretary must overwrite the necessary fields.
+5. After modifying the information the secretary clicks the “Save Changes” button to save changes.
+6. Information will be updated from the external text file.
+
+#### Use Case 8: Employee’s Information Consult
+##### Primary Actor: Secretary
+##### Precondition: The secretary is already in the registered employees section.
+##### Main Scenario: 
+
+1. From a list that is shown the secretary needs to search for the employees whose information wants to be consulted.
+2. Once found the information will be shown in a new Panel where the user can’t edit the information.
+
+#### Use Case 4: Student’s Information Consult
+##### Primary Actor: School’s Principal and Members of the Finance Department
+##### Precondition: The user is already in the registered students section.
+##### Main Scenario: 
+
+1. From a list that is shown the user needs to search for the student whose information wants to be consulted.
+2. Once found the information will be shown in a new Panel where the user can’t edit the information.
+
+#### Use Case 8: Employee’s Information Consult
+##### Primary Actor: School’s Principal and Members of the Finance Department
+##### Precondition: The user is already in the registered employees section.
+##### Main Scenario: 
+
+1. From a list that is shown the user needs to search for the employees whose information wants to be consulted.
+2. Once found the information will be shown in a new Panel where the user can’t edit the information.
+
+
+
 
 # Appendixes
 
