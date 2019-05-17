@@ -313,7 +313,7 @@ Description of functional requirements by giving various use cases.
 1. From a list that is shown the secretary needs to search for the employees whose information wants to be consulted.
 2. Once found the information will be shown in a new Panel where the user can’t edit the information.
 
-#### Use Case 4: Student’s Information Consult
+#### Use Case 9: Student’s Information Consult
 ##### Primary Actor: School’s Principal and Members of the Finance Department
 ##### Precondition: The user is already in the registered students section.
 ##### Main Scenario: 
@@ -321,7 +321,7 @@ Description of functional requirements by giving various use cases.
 1. From a list that is shown the user needs to search for the student whose information wants to be consulted.
 2. Once found the information will be shown in a new Panel where the user can’t edit the information.
 
-#### Use Case 8: Employee’s Information Consult
+#### Use Case 10: Employee’s Information Consult
 ##### Primary Actor: School’s Principal and Members of the Finance Department
 ##### Precondition: The user is already in the registered employees section.
 ##### Main Scenario: 
