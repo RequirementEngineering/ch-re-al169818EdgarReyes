@@ -36,7 +36,7 @@ This school management system is aimed toward an elementary school who has an sm
 This management system is intended to be an standalone application and should not depend on the availability of other software.
 
 ### 2.1.1 System Enviroment
-![image]()
+![systemenviroment](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/System%20Enviroment.png?raw=true)
 
 The School Management System has three active actors and one cooperating 
 system. The system is accessed through an executable that will lead the actors to the system’s features. 
@@ -45,8 +45,12 @@ system. The system is accessed through an executable that will lead the actors t
 ## 2.2 Product functions
 This section outlines the use cases for each of the active actors of the system. The secretary is the main actor in the system and all of its use cases are done separately, finance department member and the school’s principal have only one use case apiece.
 
+### 2.2.1 Secretary Use Cases
+
 Use case: Register Student 
-	Diagram: 
+Diagram: 
+
+![uc1](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC1.png?raw=true)
 	
 
 Brief Description: 
@@ -60,6 +64,8 @@ Initial Step-By-Step Description
 
 Use case: Unregister Student
 Diagram: 
+
+![uc2](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC2.png?raw=true)
 	
 Brief Description: 
 The secretary accesses the system, then goes to the unregister student section and selects the student to me remove from the system.
@@ -72,7 +78,9 @@ Before this case use can be initiated, the secretary has already accessed the st
 
 Use case: Modify student’s information
 Diagram: 
-	
+
+![uc3](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC3.png?raw=true)
+
 Brief Description: 
 The secretary accesses the system, then goes to the modify student section and selects the student whose information has to be changed and changes the information.
 Initial Step-By-Step Description
@@ -85,7 +93,9 @@ Before this case use can be initiated, the secretary has already accessed the st
 
 Use case: Register Employee
 Diagram: 
-	
+
+![uc4](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC4.png?raw=true)
+
 Brief Description: 
 The secretary accesses the system, then goes to the register employee section and fills the fields with the employee’s information.
 Initial Step-By-Step Description
@@ -95,8 +105,25 @@ Before this case use can be initiated, the secretary has already accessed the em
 * The secretary clicks the “Register new employee” button to save the typed information.
 * The system will save the register in an external text file.
 
+
+Use case: Unregister Employee
+Diagram: 
+![unr](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC5.png?raw=true)
+
+Brief Description: 
+The secretary accesses the system, then goes to the unregister employee section and selects the employee to be removed from the system.
+
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the employees unregister section.
+
+* The secretary selects from the list the employee whose information is going to be removed from the system. 
+* The secretary clicks the “Remove Employee” button to remove the employee from the system.
+* The system will erase the register from the external text file.
+
 Use case: Modify employee’s information
 Diagram: 
+
+![uc5](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC6.png?raw=true)
 	
 Brief Description: 
 The secretary accesses the system, then goes to the modify employee section and selects the employee whose information has to be changed and changes the information.
@@ -110,7 +137,9 @@ Before this case use can be initiated, the secretary has already accessed the em
 
 Use case: Consult Students Information
 Diagram: 
-	
+
+![uc6](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC7.png?raw=true)
+
 Brief Description: 
 	The secretary accesses the system, then goes to the registered students section and search in the list for the student whose information needs to be consulted
 	Initial Step-By-Step Description
@@ -119,12 +148,75 @@ Brief Description:
 The secretary selects from the list the student whose information needs to be consulted. 
 
 
+Use case: Consult Employees Information
+Diagram: 
 
+![cei](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC9.png?raw=true)
 
+Brief Description: 
+The secretary accesses the system, then goes to the registered employees section and search in the list for the employee whose information needs to be consulted
 
+Initial Step-By-Step Description
+Before this case use can be initiated, the secretary has already accessed the registered employee section.
+
+* The secretary selects from the list the student whose information needs to be consulted. 
+
+### 2.2.1 Finance Department Members Use Cases
+Use case: Consult Students Information
+Diagram: 
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC8.png?raw=true)
+
+Brief Description: 
+A member of the finance department accesses the system, then goes to the registered students section and search in the list for the student whose information needs to be consulted
+
+Initial Step-By-Step Description
+Before this case use can be initiated, the member of the finance department has already accessed the registered students section.
+
+* A member of the finance department selects from the list the student whose information needs to be consulted. 
+
+Use case: Consult Employees Information
+Diagram: 
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC8.png?raw=true)
+
+Brief Description: 
+A member of the finance department accesses the system, then goes to the registered employees section and search in the list for the employee whose information needs to be consulted
+
+Initial Step-By-Step Description
+Before this case use can be initiated, the member of the finance department has already accessed the registered employee section.
+
+* A member of the finance department selects from the list the student whose information needs to be consulted. 
+
+### 2.2.1 School's Principal Use Cases
+Use case: Consult Students Information
+Diagram: 
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC11.png?raw=true)
+
+Brief Description: 
+The school’s principal accesses the system, then goes to the registered students section and search in the list for the student whose information needs to be consulted
+
+Initial Step-By-Step Description
+Before this case use can be initiated, the school’s principal has already accessed the registered students section.
+
+* The school’s principal selects from the list the student whose information needs to be consulted. 
+
+Use case: Consult Employees Information
+Diagram: 
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/Use%20Cases/UC12.png?raw=true)
+
+Brief Description: 
+The school’s principal accesses the system, then goes to the registered employees section and search in the list for the employee whose information needs to be consulted
+
+Initial Step-By-Step Description
+Before this case use can be initiated, the member of the school’s principal has already accessed the registered employee section.
+
+* The school’s principal selects from the list the student whose information needs to be consulted. 
 
 ## 2.3 User characteristics
-+ This subsection of the SRS should describe those general characteristics of the intender users of the product including educational level, experience, and technical expertise.
+
 
 ## 2.4 Constraints
 + This subsection of the SRS should provide a general description of any other items that will limit the developer's options
