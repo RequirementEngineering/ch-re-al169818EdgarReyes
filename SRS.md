@@ -351,9 +351,37 @@ Description of functional requirements by giving various use cases.
 1. From a list that is shown the user needs to search for the employees whose information wants to be consulted.
 2. Once found the information will be shown in a new Panel where the user can’t edit the information.
 
+# 4. Processes
+
+## 4.1 Student Enrollment
+
+This process is divided in two types of enrollments, the first one is for the new students and the second one is for students who are already in the school and that are going to enroll into a new scholar year.
+
+The process of the students who are already in the school is the following.
+
+The student has to generate a voucher and there are two ways of doing this. The first one is through the school's website and the second
+one is going to the school and ask for the voucher in the scholar services department. Using either way, the student will get a voucher
+and a copy of the original voucher.
+
+After having generated the vouchers the student has to pay the enrollment fee that is specified in the voucher. To do this the student has to go to the bank which the school has an agreement with. In the bank the student has to go to the paying booth and deliver both vouchers along with the enrollment fee. After the bank employee validates the payment a stamped voucher is delivered to the student.
+
+The next step is to deliver de voucher's copy in the school, more specifically, in the human resources department where an employee will receive the copy and register the student's information in the system.
 
 
 
-# Appendixes
 
-# Index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
