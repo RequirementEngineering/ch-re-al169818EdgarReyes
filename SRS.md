@@ -367,6 +367,12 @@ After having generated the vouchers the student has to pay the enrollment fee th
 
 The next step is to deliver de voucher's copy in the school, more specifically, in the human resources department where an employee will receive the copy and register the student's information in the system.
 
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/bpm%20diagrams/bp1.png?raw=true)
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/bpm%20diagrams/bp2.png?raw=true)
+
+![](https://github.com/RequirementEngineering/ch-re-al169818EdgarReyes/blob/master/artifacts/bpm%20diagrams/bp3.png?raw=true)
+
 
 
 
