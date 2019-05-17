@@ -1,4 +1,26 @@
-# Introduction
+### UNIVERSIDAD AUTÓNOMA DE CIUDAD JUÁREZ
+
+### DIVISIÓN MULTIDISCIPLINARIA EN CIUDAD UNIVERSITARIA
+
+### DEPARTAMENTO DE INGENIERÍA ELÉCTRICA Y COMPUTACIÓN
+
+
+![](http://www.uacj.mx/comunicacion/PublishingImages/Escudo%20UACJ%202015/Escudo%20uacj%202015-color-sin%20fondo.png)
+
+### School Management System SRS
+
+#### EDGAR OMAR REYES OLIVAS
+#### 169818
+
+#### Cd.Juárez, Chih., México
+#### May 16, 2019
+
+
+
+
+
+
+# 1. Introduction
 ## 1.1 Purpose
 The purpose of this document is to present a detailed description of an elementary school management system. Within the description, there will be an explanation of the features and constraints under which the system will operate. This document is intended for both users and stakeholders as a guide for system’s functions.
 
@@ -29,7 +51,7 @@ As for the next chapter, it contains a general view of the functionality of the 
 The third chapter is written for stakeholders with more technical acknowledgement because it describes the functionality of the product in technical terms.
 
 
-# Overall Description
+# 2. Overall Description
 ## 2.1 Product perspective
 This school management system is aimed toward an elementary school who has an small amount of students and employees, but needs assistance of a software system to manage the students and employees information in order to ease the processes of information handling. Management systems should be user-friendly, easy to learn and use, and it also should be trustworthy. 
 
